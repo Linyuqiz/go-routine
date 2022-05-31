@@ -1,4 +1,4 @@
-package grammar
+package base_grammar
 
 import (
 	"math"

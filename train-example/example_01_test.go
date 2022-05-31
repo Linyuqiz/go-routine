@@ -1,4 +1,4 @@
-package example
+package train_example
 
 import (
 	"fmt"

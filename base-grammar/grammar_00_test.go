@@ -1,10 +1,10 @@
-package example
+package base_grammar
 
 import (
 	"fmt"
 	"testing"
 )
 
-func TestExample00_00(t *testing.T) {
+func TestGrammar00_00(t *testing.T) {
 	fmt.Println("Hello World")
 }
