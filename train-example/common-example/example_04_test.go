@@ -1,4 +1,4 @@
-package train_example
+package common_example
 
 import (
 	"encoding/json"
