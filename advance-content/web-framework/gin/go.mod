@@ -1,4 +1,4 @@
-module axemc.com/web-framework/gin-routine
+module axemc.com/web-framework/gin
 
 go 1.18
 

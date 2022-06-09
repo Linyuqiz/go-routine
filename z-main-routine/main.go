@@ -21,6 +21,11 @@ func execTime(f MultiPlyFunc) MultiPlyFunc {
 	}
 }
 
+// 初始化顺序：变量初始化->init()->main()
+func init() {
+	println("init executed")
+}
+
 func main() {
 	value := execTime(multiply)(3, 11)
 	fmt.Printf("this value is %d", value)
